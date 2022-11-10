@@ -4,12 +4,14 @@
 
 body {
     background-color: #2e3a46;
+}
 
-    .ms_container {
-        width: 60%;
-        height: 400px;
-        margin: 0 auto;
-        //DEBUG
-        border: 1px solid red;
-    }
+img {
+    max-width: 100%;
+}
+
+.ms_container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
 }

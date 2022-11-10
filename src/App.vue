@@ -26,7 +26,7 @@ export default {
 <template>
   <AppHeader />
   <main>
-    <div class="ms_container">
+    <div class="ms_container p-5">
       <CharactersGrid />
 
     </div>

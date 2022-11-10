@@ -16,24 +16,10 @@ export default {
 </script>
 
 <template>
-    <div class="row row-cols-5">
-        <div class="col">
-            <CharacterCard />
-        </div>
-        <div class="col">
-            <CharacterCard />
-        </div>
-        <div class="col">
-            <CharacterCard />
-        </div>
-        <div class="col">
-            <CharacterCard />
-        </div>
-        <div class="col">
-            <CharacterCard />
-        </div>
-        <div class="col">
-            <CharacterCard />
+    <div class="row row-cols-2 row-cols-md-5">
+        <div class="col" v-for="character in store.characters" :key="character.id">
+            <CharacterCard 
+            :character="character" />
         </div>
     </div>
 </template>
