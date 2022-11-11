@@ -16,10 +16,10 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../styles/partials/variables";
+@use "../styles/partials/variables" as *;
 .card-item {
     height: 450px;
-    background-color: #2e3a46;
+    background-color: $main-bg-color;
 
     h3 {
         color: white;
@@ -28,7 +28,7 @@ export default {
     }
 
     p {
-        color: #62666a;
+        color: $subtext-color;
         font-size: 18px;
     }
 }

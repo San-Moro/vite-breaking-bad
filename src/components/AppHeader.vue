@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <header class="d-flex pt-4 mb-4">
+    <header class="d-flex pt-4">
         <img class="mx-3" src="../assets/img/Breaking_Bad_logo.svg.png" alt="logo">
         <h1>Breaking Bad Api</h1>
     </header>
